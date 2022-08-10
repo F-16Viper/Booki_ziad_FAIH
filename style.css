@@ -1,0 +1,658 @@
+
+html, body {
+    font-family: Raleway;
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexArround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sizeLiens{
+    width: 47%;
+}
+
+.Size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color1 {
+    color: blue;
+}
+
+.color2 {
+    color: black;
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+.colorblue {
+    color: #0065fc;
+}
+
+.lightblue {
+    color: #deebff;
+}
+
+.colorgray {
+    color: #f2f2f2;
+}
+
+.backblue {
+    background-color: #0065fc;
+}
+
+.backlightblue {
+    background-color: #deebff;
+}
+
+.backgray {
+    background-color: #f2f2f2;
+}
+
+.borderup {
+    border-top: 1px solid transparent;
+}
+
+.borderup :hover > a {
+    cursor: pointer;
+    color: #0065fc;
+    border-top: 1px solid #0065fc;
+    padding-top: 35px;
+}
+
+
+
+
+.sizeLien {
+    width: 180px;
+    height: 99px;
+}
+
+/*barre de recherche*/
+
+.searchcase {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 0 10px 10px 0;
+}
+
+.search {
+    width: 230px;
+    height: 50px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.noborders {
+    border: none;
+}
+
+.search2 {
+    padding-left: 21px;
+}
+
+.rechercher {
+    width: 120px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/*Filtres*/
+
+.filtre {
+    display: flex;
+    align-items: center;
+}
+
+.margFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.margFiltreTitre {
+    margin-right: 20px;
+}
+
+.filtreTexteIcons {
+    /*border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;*/
+
+    margin: 5px 10px 5px 10px;
+    padding-right: 5px;
+    border: 2px #f2f2f2 solid;
+    border-radius: 48px;
+  
+}
+
+.filtreIcons {
+    /*border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;*/
+
+    color: #0065fc;
+    background-color: #deebff;
+    padding: 21px 21px 21px 21px;
+    border-radius: 28px;
+   
+}
+
+.filtreTexteIcons:hover > .filtreTexte {
+    color: #0065fc;
+}
+
+.filtreTexteIcons:hover > .filtreIcons {
+    color: white;
+    background-color: #0065fc;
+}
+
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+/*info*/
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+
+.sizeHebergement{
+    flex: 2;
+    height: 600px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.sizePopulaire{
+    flex: 1;
+    height: 600px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.imgHebergement1 {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergement2 {
+
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergement3 {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergement4 {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergement5 {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergement6 {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.blocHebergement {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flexColumnCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexColumnBetween {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.flexColumnArround {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.cubeHebergemment {
+    height: auto;
+    width: 30%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.cubeHebergemment:hover {
+   cursor: pointer;
+   transform: scale(1.13);
+}
+
+.bloc1 {
+    margin-bottom: 10px;
+}
+
+.bloc2 {
+    margin-top: 10px;
+}
+
+.cubeDetailsHebergements {
+    width: 90%;
+}
+
+
+.blocPopulaires {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imgPop1 {
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgPop2 {
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+.imgPop3 {
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.cubePopulaires {
+    height: auto;
+    background-color: white;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+
+.cubePopulaires:hover {
+    cursor: pointer;
+    transform: scale(1.13);
+}
+
+.blockPop12 {
+    margin-bottom: 20px;
+}
+
+.details2 {
+    width: 60%;
+    padding-left: 5%;
+}
+
+/*activités*/
+
+.activites {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blocActivites {
+    height: 600px;
+    width: 100%;
+}
+
+.blockActivites2356 {
+    height: 600px;
+    width: 24%;
+}
+
+.img1 {
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.img2 {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.img3 {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.img4 {
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.img5 {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.img6 {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.cubeActivites {
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.cubeActivites:hover {
+    cursor: pointer;
+    transform: scale(1.13);
+}
+
+.cubeActivites2356 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.cubeActivites2356:hover {
+    cursor: pointer;
+    transform: scale(1.11);
+}
+.high {
+    height: 70px;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+
+/*footer*/
+
+.footer {
+    height: 300px;
+    margin-top: 100px;
+}
+
+.taillefoot {
+    height: 150px;
+}
+
+.margeBloc1 {
+    margin-left: 7%;
+}
+
+.margeBloc3 {
+    margin-right: 17%;
+}
+
+.linkFoot {
+    color: black;
+}
+ 
+/*tablette*/
+@media screen and (max-width: 1170px) {
+    .sizeLiens {
+        margin-left: 0.5%;
+    }
+    
+    .cubeDetailsHebergements {
+        min-height: 150px;
+    }
+
+    .sizeHebergement {
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .sizePopulaire {
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .TabletteSizeTitlePop {
+        margin-top: 0;
+    }
+    .mobileFiltreWrap {
+        flex-direction: column;
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    .filtreTexteIcons {
+        margin-bottom: 20px;
+    }
+
+    #Hébergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    .blocPopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .blocHebergement {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 40px;
+        padding: 5%;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 768px) {
+    .Size {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .blocHebergement {
+        height: auto;
+    }
+
+    .bloc1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .bloc2 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .cubeHebergemment {
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+
+    .cubeDetailsHebergements {
+        min-height: auto;
+    }
+
+   .activites {
+        margin-left: 20px;
+    }
+
+    .blockActiv{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .blocActivites {
+        flex-direction: column;
+        height: auto;
+        width: 97%;
+    }
+
+    .cubeActivites {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .blockActivites2356 {
+        width: 100%;
+        height: auto;
+    }
+
+    .cubeActivites2356 {
+        margin-bottom: 50px;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        height: 200px;
+    }
+
+    .footer {
+       
+        margin-top: -30px;
+        padding-bottom:5px;
+        padding-top:10px;
+       
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-left: 30px;  
+    }
+    .margeBloc1 {
+        margin-left: 0;
+    }
+
+    .margeBloc3 {
+        margin-left: 0;
+    }
+
+    .sizeLiens {
+        order: 1;
+        width: 100%;
+        margin-left: 0;;
+    }
+
+    .sizeLienMobile {
+        width: 50%;
+        border-top: none;
+        border-bottom: 5px solid #f2f2f2;
+    }
+
+    .sizeLien {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sizeLienMobile:hover {
+        border-top: 0;
+        border-bottom: 5px solid #0065fc;
+    }
+
+    .borderup :hover > a {
+        border-top: none;
+    }
+    .blocHebergement {
+       background-color: white; 
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+    }   
+}
